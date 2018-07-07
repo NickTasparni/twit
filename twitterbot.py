@@ -16,7 +16,7 @@ ACCESS_SECRET =  '3OviK4Zw6eJSJw2Php38QQ7HlQenJRcmmqyVIQ46rzYet' #keep the quote
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth, wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
-keywords = ["rt to", "rt and win", "retweet and win", "rt for", "rt 4", "retweet to"]
+keywords = ["rt to", "rt and win", "retweet and win", "rt for", "rt 4", "retweet to", "giveaway"]
 
 bannedwords = ["vote", "bot", "b0t"]
 
